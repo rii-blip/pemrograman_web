@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 6</title>
+</head>
+<body>
+    <header>
+        <h1> Foto dan Video pada Halaman WEB</h1>
+        <p>Pada Halaman ini kita akan belajar menampilkan foto  dan
+            video menggunakan HTML</p>
+    </header>
+    <hr>
+    <!--Foto--> 
+    <section>
+        <h2>1. Menampilkan Foto</h2>
+        <p>Foto pada halaman web dapan menggunakan tag &lt;img&gt;</p>
+
+        <img src="cuking.png" alt="Gambar1">
+    </section>
+
+    <!--Foto dengan ukuran-->
+    <section>
+        <h2>2. Foto dengan ukuran</h2>
+        <p>Ukuran pada foto dapat diatur dengan atribut width dan height</p>
+
+        <img src="cuking.png" alt="Gambar2" width="450" height="500">   
+    </section>
+
+    <!--Foto dengan Link-->
+    <section>
+        <h2>3. Foto dengan Link</h2>
+        <p>Foto juga dapat digabungkan dengan tag link, silahkan klik foto berikut</p>
+
+        <a href="https://www.google.com/" target="_blank">
+            <img src="foto_profil.png" alt="Foto Link" width="200">
+        </a>
+    </section>
+
+    <!--Video-->
+    <section>
+        <h2>4. Video</h2>
+        <p>Video dapat ditampilkan menggunakan tag &lt;video&gt;</p>
+
+        <video width="500" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <!--Video Autoplay-->
+    <section>
+        <h2>5. Video Autoplay</h2>
+        <video width="500" controls autoplay muted>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <!--Video Youtube-->
+    <section>
+        <h2>6. Video YouTube</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/35uuTLGOVZ0?si=BV2y-41XjbpfmCcN" title="Video YouTube" allowfullscreen></iframe>
+    </section>
+    </body>
+</html>
