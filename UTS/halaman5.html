@@ -1,0 +1,98 @@
+<!Doctype html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi - Festival Kreativitas Mahasiswa 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        header, nav, main, section, article, footer {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin: 10px;
+        }
+        nav a {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Festival Kreativitas Mahasiswa 2026</h1>
+        <p>Universitas Pamulang Kampus Serang</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="halaman2.html">Juri</a>
+        <a href="halaman3.html">Jadwal</a>
+        <a href="halaman4.html">Dokumentasi</a>
+        <a href="halaman5.html" class="active">Registrasi</a>
+    </nav>
+
+    <main>
+        
+            <h2>Pendaftaran Peserta Workshop</h2>
+            <form>
+                <div>
+                    <label for="nama">Nama Lengkap:</label>
+                    <input type="text" id="nama" name="nama" required placeholder="Masukkan Nama Lengkap Anda">
+                </div>
+
+                <div>
+                    <label for="nim">NIM:</label>
+                    <input type="text" id="nim" name="nim" required placeholder="Masukkan NIM Anda">
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="nama@student.unpam.ac.id">
+                </div>
+
+                <div>
+                    <label>Jenis Kelamin:</label>
+                    <div style="margin-top: 20px;">
+                        <label style="font-weight: normal; margin-right: 50px;">
+                            <input type="radio" name="jenis_kelamin" value="Laki-laki" required> Laki-laki</label>
+                        <label style="font-weight: normal;">
+                            <input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan</label>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="sesi">Pilihan Sesi:</label>
+                    <select id="sesi" name="sesi" required>
+                        <option value="">-- Pilih Sesi Workshop --</option>
+                        <option value="Sesi 1">Sesi 1: Pembukaan & Inovasi Digital</option>
+                        <option value="Sesi 2">Sesi 2: Pameran Karya & Penilaian Juri</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="status">Status Peserta:</label>
+                    <select id="status" name="status" required>
+                        <option value="">-- Pilih Status --</option>
+                        <option value="Mahasiswa Aktif">Mahasiswa Aktif</option>
+                        <option value="Panitia/Anggota">Panitia / Anggota Organisasi</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="pengalaman">Pengalaman atau Minat Bisnis Digital:</label>
+                    <textarea id="pengalaman" name="pengalaman" rows="5" placeholder="Ceritakan pengalaman atau ketertarikan Anda pada bisnis/inovasi digital..."></textarea>
+                </div>
+
+                <button type="submit" value="registrasi">Registrasi</button>
+            </form>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Program Studi Sistem Informasi S-1 Universitas Pamulang Kampus Serang</p>
+    </footer>
+</body>
+</html>
