@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Simulasi Perhitungan Belanja</h1>
+
+    <div class="form-group">
+        <label for="namaPembeli">Nama Pembeli:</label>
+        <input type="text" id="namaPembeli"><br><br>
+    </div>
+    
+    <div class="form-group">
+        <label for="hargaBarang">Total Belanja:</label>
+        <input type="number" id="hargaBarang"><br><br>
+    </div>  
+
+    <button onclick="hitungDiskon()">Hitung Total</button>
+
+    <div class="result" id="hasilContainer" style="display: none;">
+        <h2>Hasil Perhitungan</h2>
+        <p id="resNama"></p>
+        <p id="resTotalBelanja"></p>
+        <p id="resDiskon"></p>
+        <p id="resPotongan"></p>
+        <p id="resTotalBayar"></p>
+    </div>
+</div>
+
+<!-- Menghubungkan JavaScript   -->
+<script src="script.js"></script>
+
+</body>
+</html>
