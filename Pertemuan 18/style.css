@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.arena {
+  position: relative;
+  width: 90%;
+  max-width: 600px;
+  height: 360px;
+  border: 2px dashed #4caf50;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  background-color: #1e1e1e;
+  overflow: hidden;
+}
+
+.arena h2 {
+  font-size: 1.1rem;
+  color: #cccccc;
+}
+
+#btnKabur {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #2e7d32;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: top 0.15s ease, left 0.15s ease, transform 0.15s ease;
+}
